@@ -1,31 +1,33 @@
-"use client";
-
-import { motion } from "framer-motion";
-
 export default function Home() {
   return (
-    <main>
-      <section className="px-10 py-24 text-center bg-slate-50">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-        >
-          <h2 className="text-4xl font-bold mb-4 text-slate-900">
-            Professional Bookkeeping for Small Businesses
-          </h2>
-          <p className="max-w-xl mx-auto text-gray-600">
-            Accurate records, timely reporting, and complete peace of mind.
-          </p>
+    <div className="max-w-4xl mx-auto p-10 text-center">
+      <h1 className="text-4xl font-bold mb-6">
+        Reliable Bookkeeping for Small Businesses
+      </h1>
 
-          <a
-            href="/contact"
-            className="inline-block mt-8 px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
-          >
-            Schedule a Consultation
-          </a>
-        </motion.div>
-      </section>
-    </main>
+      <p className="text-lg mb-8">
+        Working Wonders Bookkeeping LLC helps business owners stay organized,
+        confident, and stress-free with accurate bookkeeping and financial
+        reporting.
+      </p>
+
+      <a
+        href="https://calendly.com/workingwondersbk/30min"
+        target="_blank"
+        className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg"
+      >
+        Schedule a Free Consultation
+      </a>
+
+      <div className="mt-12 text-left">
+        <h2 className="text-2xl font-semibold mb-4">Our Services</h2>
+        <ul className="space-y-2">
+          <li>✔ Monthly Bookkeeping</li>
+          <li>✔ Payroll Support</li>
+          <li>✔ Financial Reports</li>
+          <li>✔ Tax Preparation Support</li>
+        </ul>
+      </div>
+    </div>
   );
 }
