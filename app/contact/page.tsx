@@ -1,16 +1,27 @@
 export default function Contact() {
   return (
-    <main className="px-10 py-20 text-center">
-      <h2 className="text-3xl font-semibold mb-4">Schedule an Appointment</h2>
-      <p className="text-gray-600 mb-8">
-        Choose a time that works for you.
+    <div className="max-w-2xl mx-auto p-8">
+      <h1 className="text-3xl font-bold mb-4">Contact Working Wonders Bookkeeping</h1>
+
+      <p className="mb-4">
+        Have questions or need help with your bookkeeping? I’d love to connect.
       </p>
 
-<iframe
-  src="https://calendly.com/workingwondersbk/30min"
-  className="w-full h-[700px] border rounded"
-/>
+      <p className="mb-2">
+        📞 Phone: (208)872-4411
+      </p>
 
-    </main>
+      <p className="mb-6">
+        📧 Email: workingwondersbk@gmail.com
+      </p>
+
+      <a
+        href="https://calendly.com/workingwondersbk/30min"
+        target="_blank"
+        className="bg-blue-600 text-white px-6 py-3 rounded-lg"
+      >
+        Schedule a Free Consultation
+      </a>
+    </div>
   );
 }
