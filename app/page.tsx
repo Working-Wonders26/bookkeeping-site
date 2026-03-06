@@ -1,5 +1,9 @@
+import Header from "../components/Header";
 export default function Home() {
-  return (
+return (
+  <>
+    <Header />
+
     <main className="max-w-6xl mx-auto px-6 py-12">
 
       <section className="text-center py-16">
@@ -117,6 +121,5 @@ export default function Home() {
         </a>
       </section>
 
-    </main>
-  );
-}
+</main>
+</>
