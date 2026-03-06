@@ -16,10 +16,12 @@ return (
           confident, and prepared with accurate bookkeeping and financial reporting.
         </p>
 
-        <a
-          href="https://calendly.com/workingwondersbk/30min"
-          className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-700"
-        >
+ <a
+  href="https://calendly.com/workingwondersbk/30min"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-700"
+>
           Schedule Free Consultation
         </a>
       </section>
@@ -107,16 +109,62 @@ return (
 
         </div>
       </section>
+{/* OWNERS SECTION */}
 
+<section id="about" className="py-20 bg-gray-50">
+
+  <div className="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+
+    {/* Photo */}
+
+    <div className="flex justify-center">
+      <div className="w-64 h-64 rounded-xl bg-gray-300"></div>
+    </div>
+
+    {/* Text */}
+
+    <div>
+      <h2 className="text-3xl font-bold mb-6">
+        Meet the Owners
+      </h2>
+
+      <p className="mb-4">
+        Sean and Hailey Wheaton are the husband-and-wife team behind
+        Working Wonders Bookkeeping. They are passionate about helping
+        small business owners succeed by providing reliable bookkeeping
+        and clear financial insights that support long-term growth.
+      </p>
+
+      <p className="mb-4">
+        Hailey brings over five years of bookkeeping experience,
+        including three years working directly under a CPA where she
+        developed strong skills in financial organization, reporting,
+        and accuracy.
+      </p>
+
+      <p>
+        As QuickBooks Certified professionals, Sean and Hailey stay
+        committed to continuous learning and embrace modern tools —
+        including AI-driven solutions — to provide efficient,
+        forward-thinking financial support for their clients.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
       <section className="text-center py-16">
         <h2 className="text-3xl font-bold mb-6">
           Ready to simplify your bookkeeping?
         </h2>
 
-        <a
-          href="https://calendly.com/workingwondersbk/30min"
-          className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-700"
-        >
+<a
+  href="https://calendly.com/workingwondersbk/30min"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-700"
+>
           Schedule Your Free Consultation
         </a>
       </section>
