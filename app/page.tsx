@@ -117,9 +117,13 @@ return (
 
     {/* Photo */}
 
-    <div className="flex justify-center">
-      <div className="w-64 h-64 rounded-xl bg-gray-300"></div>
-    </div>
+ <div className="flex justify-center">
+  <img
+    src="/owners.jpg"
+    alt="Sean and Hailey Wheaton"
+    className="rounded-xl w-72 shadow-lg"
+  />
+</div>
 
     {/* Text */}
 
