@@ -121,7 +121,7 @@ return (
   <img
     src="/owners.jpg"
     alt="Sean and Hailey Wheaton"
-    className="rounded-xl w-72 shadow-lg"
+    className="rounded-xl w-80 shadow-lg"
   />
 </div>
 
