@@ -19,9 +19,10 @@ export default function Home() {
           </h1>
 
           <p className="text-lg text-[#5F5F5F] mb-8 max-w-xl leading-relaxed">
-            Sean and Hailey Wheaton provide personalized bookkeeping
-            services designed to help business owners stay organized,
-            reduce stress, and gain clarity in their finances.
+            Working Wonders Bookkeeping provides personalized bookkeeping
+            services designed to help businesses stay organized,
+            reduce stress, and gain clarity in their finances. We currently are serving
+            in Tallahassee, Florida and remotely across the United States
           </p>
 
           <a
