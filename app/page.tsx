@@ -4,7 +4,7 @@ export default function Home() {
 
       {/* HERO SECTION */}
 
-      <section className="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-16 items-center">
+      <section className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-16 sm:py-20 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
         {/* LEFT SIDE */}
 
@@ -14,7 +14,7 @@ export default function Home() {
             Working Wonders Bookkeeping
           </p>
 
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold leading-tight mb-6">
+          <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-semibold leading-tight mb-6">
             Helping Small Businesses Feel Confident in Their Finances
           </h1>
 
@@ -43,7 +43,7 @@ export default function Home() {
           <img
             src="/owners.jpg"
             alt="Sean and Hailey Wheaton"
-            className="rounded-3xl shadow-2xl w-full max-w-md object-cover"
+            className="rounded-3xl shadow-2xl w-full max-w-xs sm:max-w-sm md:max-w-md object-cover"
           />
 
         </div>
@@ -82,7 +82,7 @@ export default function Home() {
 
       <section
         id="services"
-        className="max-w-6xl mx-auto px-6 py-24"
+        className="max-w-6xl mx-auto px-6 py-16 sm:py-20 lg:py-24"
       >
 
         <div className="max-w-2xl mb-16">
@@ -97,7 +97,7 @@ export default function Home() {
 
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid sm:grid-cols-2 gap-6 lg:gap-8">
 
           <div className="bg-white p-8 rounded-3xl shadow-sm">
             <h3 className="text-2xl font-semibold mb-4">
@@ -155,7 +155,7 @@ export default function Home() {
 
       <section
         id="about"
-        className="bg-white py-24"
+        className="bg-white py-16 sm:py-20 lg:py-16 sm:py-20 lg:py-24"
       >
 
         <div className="max-w-5xl mx-auto px-6 text-center">
@@ -190,7 +190,7 @@ export default function Home() {
 
       {/* FINAL CTA */}
 
-      <section className="max-w-5xl mx-auto px-6 py-24 text-center">
+      <section className="max-w-5xl mx-auto px-6 py-16 sm:py-20 lg:py-24 text-center">
 
         <h2 className="text-4xl font-semibold mb-6">
           Ready to simplify your bookkeeping?
