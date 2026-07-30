@@ -22,7 +22,7 @@ export default function Home() {
             Working Wonders Bookkeeping provides personalized bookkeeping
             services designed to help businesses stay organized,
             reduce stress, and gain clarity in their finances. We currently are serving
-            in Tallahassee, Florida and remotely across the United States
+            in Middleton, Idaho and remotely across the United States
           </p>
 
           <a
@@ -179,7 +179,7 @@ export default function Home() {
             focusing on; building and running your business and, creating a
             unique work-life balance, personally fit to your goals. Don't 
             hesitate to call or email us today for a free consultation! 
-            Phone: 850-212-2773 
+            Phone: 208-506-8663 
             Email: workingwondersbk@gmail.com
           </p>
 
