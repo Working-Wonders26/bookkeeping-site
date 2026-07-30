@@ -3,14 +3,14 @@ import Navbar from "../components/Navbar";
 
 
 export const metadata = {
-  title: "Working Wonders Bookkeeping | Bookkeeper in Tallahassee, FL",
+  title: "Working Wonders Bookkeeping | Bookkeeper in Middleton, ID",
 
   description:
-    "Working Wonders Bookkeeping provides professional bookkeeping, payroll support, and financial reporting services for businesses in Tallahassee, Florida and across the United States.",
+    "Working Wonders Bookkeeping provides professional bookkeeping, payroll support, and financial reporting services for businesses in Middleton, Idaho and across the United States.",
 
   keywords: [
-    "bookkeeper Tallahassee",
-    "bookkeeping services Florida",
+    "bookkeeper Middleton",
+    "bookkeeping services Idaho",
     "small business bookkeeping",
     "QuickBooks bookkeeper",
     "payroll support",
